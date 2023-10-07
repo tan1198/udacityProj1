@@ -27,12 +27,14 @@ It is fairly easier to deploy applications to App Service than it is to Virtual 
 --------------------
 #### Decision
 
-Deployment option: App Service ([https://article-cms-app.azurewebsites.net/](https://article-cms-app.azurewebsites.net/))
+Deployment option: App Service (https://my-cms-app.azurewebsites.net/)
 
 --------------------
 #### Justification
 
-An App Service is a PaaS offering meaning that you just have to deploy your code and not worry about the underlying infrastructure. The application is designed to be cloud native removing the need for server management and optimization. It also has good pricing tiers and gives adequate room for scalability. Another caveat is the wide range of deployment options available that can easily be integrated into a production workflow
+Reason:
+- This web app is not an commercial app or for business purpose, so app service will be better choice to reduce cost.
+- Although VMs have more availability but this web app only for personal blog and basic cms, App service will not need much time for configuration as VMs.
 
 --------------------
 
